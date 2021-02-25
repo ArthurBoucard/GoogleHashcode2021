@@ -35,8 +35,8 @@ CRED	+=	"\e[0;31m
 
 $(NAME):	$(OBJ)
 	@echo $(CGREEN)======[BUILDING PROJECT]=====$(END)
-	@echo $(CYELLOW)$(CC) -o $(NAME) $(OBJ) $(WFLAGS) -ggdb3$(END)
-	@$(CC) -o $(NAME) $(OBJ) $(WFLAGS) -ggdb3
+	@echo $(CYELLOW)$(CC) -o $(NAME) $(OBJ) -ggdb3$(END)
+	@$(CC) -o $(NAME) $(OBJ) -ggdb3
 	@echo $(CGREEN)======[COMPLETE PROJECT]=====$(END)
 	@rm -f *.o
 
