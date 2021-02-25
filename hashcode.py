@@ -7,4 +7,7 @@
 ##
 #!
 
+def main():
+    return
+
 main()
