@@ -11,7 +11,8 @@
 #include <sstream>
 #include "class.hpp"
 
-void lengthcar(City *city) {
+void lengthcar(City *city)
+{
     for(int n = 0; n < city->_nbCars; n++)
         for(int i = cars[n]._nbStreet - 1; i > 0; i--)
             cars[n]._lengthStreet += cars[i].route.length;
@@ -64,7 +65,8 @@ int count_notempty(intersection inter)
     return nb;
 }
 
-void print_results(intersection *intersections){
+void print_results(intersection *intersections)
+{
     int nb = 0;
 
     for(int i = 0; i < nb_intersections; i++){
@@ -91,7 +93,8 @@ int count_notempty(intersection inter)
     return nb;
 }
 
-void print_results(intersection *intersections){
+void print_results(intersection *intersections)
+{
     int nb = 0;
 
     for(int i = 0; i < nb_intersections; i++){
