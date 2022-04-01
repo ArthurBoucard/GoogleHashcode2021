@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/arthurboucard/googlehashcode2021/badge)](https://www.codefactor.io/repository/github/arthurboucard/googlehashcode2021)
+
 # Google Haschcode 2021
 
 ## <img width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1004px-Google_%22G%22_Logo.svg.png"/> Google project :
